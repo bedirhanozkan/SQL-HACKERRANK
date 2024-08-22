@@ -1,0 +1,23 @@
+PROBLEM:Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters. 
+Your result cannot contain duplicates.
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | INTEGER    |
+| CITY        | VARCHAR(21)|
+| STATE       | VARCHAR(2) |
+| LAT_N       | NUMERIC    |
+| LONG_W      | NUMERIC    |
++-------------+------------+
+
+
+Select Distinct CITY From STATION Where (CITY Like 'A%' Or CITY Like 'E%' Or CITY Like 'I%' Or CITY Like 'O%' Or CITY Like 'U%') AND 
+(CITY Like '%a' Or CITY Like '%e' Or CITY Like '%i' Or CITY Like '%o' Or CITY Like '%u') Order By city;
+
+
+
+****************
+BEDİRHAN ÖZKAN
+****************

@@ -1,0 +1,20 @@
+PROBLEM: Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | INTEGER    |
+| CITY        | VARCHAR(21)|
+| STATE       | VARCHAR(2) |
+| LAT_N       | NUMERIC    |
+| LONG_W      | NUMERIC    |
++-------------+------------+
+
+
+Select Distinct CITY From STATION Where Left(CITY,1) Not in('A','E','I','O','U') AND Right(CITY,1) Not in('a','e','i','o','u');
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
