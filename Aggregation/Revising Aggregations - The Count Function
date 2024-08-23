@@ -1,0 +1,21 @@
+PROBLEM: Query a count of the number of cities in CITY having a Population larger than 100.000
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | NUMBER     |
+| NAME        | VARCHAR2   |
+| COUNTRYCODE | VARCHAR2   |
+| DISTRICT    | VARCHAR2   |
+| POPULATION  | NUMBER     |
++-------------+------------+
+
+
+Select COUNT(Name) From CITY
+WHERE POPULATION >100000;
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
