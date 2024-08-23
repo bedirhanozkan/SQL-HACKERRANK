@@ -1,0 +1,21 @@
+PROBLEM: Query the average population for all cities in CITY, rounded down to the nearest integer.
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | NUMBER     |
+| NAME        | VARCHAR2   |
+| COUNTRYCODE | VARCHAR2   |
+| DISTRICT    | VARCHAR2   |
+| POPULATION  | NUMBER     |
++-------------+------------+
+
+
+ Select Floor(Avg(POPULATION)) From CITY;
+
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
