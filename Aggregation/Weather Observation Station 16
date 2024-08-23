@@ -1,0 +1,22 @@
+PROBLEM: Query the smallest Northern Latitude (LAT_N) from STATION that is greater than 38.7780.
+Round your answer to  decimal places.
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | INTEGER    |
+| CITY        | VARCHAR(21)|
+| STATE       | VARCHAR(2) |
+| LAT_N       | NUMERIC    |
+| LONG_W      | NUMERIC    |
++-------------+------------+
+
+Select Round(LAT_N,4) 
+From STATION
+Where LAT_N = (Select Min(LAT_N) From STATION Where LAT_N>38.7780);
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
