@@ -1,0 +1,21 @@
+PROBLEM:
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | NUMBER     |
+| NAME        | VARCHAR2   |
+| COUNTRYCODE | VARCHAR2   |
+| DISTRICT    | VARCHAR2   |
+| POPULATION  | NUMBER     |
++-------------+------------+
+
+
+ Select AVG(POPULATION) From CITY 
+ WHERE DISTRICT = 'California'
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
