@@ -1,0 +1,20 @@
+PROBLEM: Query the difference between the maximum and minimum populations in CITY.
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | NUMBER     |
+| NAME        | VARCHAR2   |
+| COUNTRYCODE | VARCHAR2   |
+| DISTRICT    | VARCHAR2   |
+| POPULATION  | NUMBER     |
++-------------+------------+
+
+
+Select Max(POPULATION) - Min(POPULATION) From CITY
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
