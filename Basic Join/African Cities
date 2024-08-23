@@ -3,8 +3,9 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
 ****************
 
 
-
-
+Select CITY.name 
+From CITY Join Country On CITY.CountryCode = Country.Code 
+Where Country.Continent = 'Africa';
 
 
 ****************
