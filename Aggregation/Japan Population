@@ -1,0 +1,22 @@
+PROBLEM: Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
+****************
+
++-------------+------------+
+| Field       |   Type     |
++-------------+------------+
+| ID          | NUMBER     |
+| NAME        | VARCHAR2   |
+| COUNTRYCODE | VARCHAR2   |
+| DISTRICT    | VARCHAR2   |
+| POPULATION  | NUMBER     |
++-------------+------------+
+
+
+Select Sum(POPULATION) From CITY
+Where COUNTRYCODE ='JPN'
+
+
+
+****************
+BEDİRHAN ÖZKAN
+****************
